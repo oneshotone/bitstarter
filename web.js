@@ -1,6 +1,5 @@
 var express = require('express');
-var routes = require('./app/controllers');
-var views = require('./app/views');
+var routes = require('./routes');
 
 var app = express.createServer(express.logger());
 
